@@ -50,6 +50,18 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 ### Week 1 (100 min): Writing Loops
 
+* Recap on generating sequence and drawing `base` plots: [1.R](1.R#L1)
+* Intro to writing custom functions: [1.R](1.R#L9)
+* Exercises on 1D random walk: [1.R](1.R#L28)
+
+    * Writing loops: [1.R](1.R#L34)
+    * Vectorized approach: [1.R](1.R#L42)
+    * Custom function: [1.R](1.R#L64)
+    
+* `lapply`, `sapply`, `do.call`: [1.R](1.R#L70)
+* Creating animation by iterating plots: [1.R](1.R#L96)
+* `apply` on matrices: [1.R](1.R#L113)
+
 Homework: -
 
 ## Contact
