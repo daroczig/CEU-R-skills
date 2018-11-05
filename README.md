@@ -7,6 +7,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
 * [Class Schedule](https://github.com/daroczig/CEU-R-skills#class-schedule)
 
     * [Week 1](https://github.com/daroczig/CEU-R-skills#week-1-100-min-writing-loops)
+    * [Week 2](https://github.com/daroczig/CEU-R-skills#week-1-100-min-more-loops)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
@@ -63,6 +64,16 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 * `apply` on matrices: [1.R](1.R#L113)
 
 Homework: -
+
+### Week 2 (100 min): More Loops
+
+* Recap on 1D random walk (sim): [2.R](2.R#L1)
+* Rolling 3 dices (sim): [2.R](2.R#L29)
+* Roulette (sim): [2.R](2.R#L53)
+* Reading Excel spreadsheet: [2.R](2.R#L79)
+* Dimension reduction with MDS for plotting: [2.R](2.R#L94)
+
+Homework: check on Moodle
 
 ## Contact
 
