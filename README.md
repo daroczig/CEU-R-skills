@@ -7,7 +7,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
 * [Class Schedule](https://github.com/daroczig/CEU-R-skills#class-schedule)
 
     * [Week 1](https://github.com/daroczig/CEU-R-skills#week-1-100-min-writing-loops)
-    * [Week 2](https://github.com/daroczig/CEU-R-skills#week-1-100-min-more-loops)
+    * [Week 2](https://github.com/daroczig/CEU-R-skills#week-2-100-min-more-loops)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
