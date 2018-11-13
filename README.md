@@ -8,6 +8,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
 
     * [Week 1](https://github.com/daroczig/CEU-R-skills#week-1-100-min-writing-loops)
     * [Week 2](https://github.com/daroczig/CEU-R-skills#week-2-100-min-more-loops)
+    * [Week 3](https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
@@ -74,6 +75,19 @@ Homework: -
 * Dimension reduction with MDS for plotting: [2.R](2.R#L94)
 
 Homework: check on Moodle
+
+### Week 3 (100 min): Intro to Time-series Analysis
+
+* Recap on MDS: [3.R](3.R#L1)
+* Loading data from the Binance API: [3.R](3.R#L63)
+* Defining and visualizing time-series: [3.R](3.R#L80)
+* Decompose time-series into seasonal, trend and random components: [3.R](3.R#L84)
+* The Naïve forecasting method: [3.R](3.R#L100)
+* Moving averages: [3.R](3.R#L113)
+* Exponential smoothing: [3.R](3.R#L118)
+* ARIMA: [3.R](3.R#L129)
+* The Naïve forecasting method: [3.R](3.R#L100)
+* Analysing the amount of gasoline products supplied between 1991 and 2017: [3.R](3.R#L145)
 
 ## Contact
 
