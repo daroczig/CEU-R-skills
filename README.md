@@ -9,6 +9,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
     * [Week 1](https://github.com/daroczig/CEU-R-skills#week-1-100-min-writing-loops)
     * [Week 2](https://github.com/daroczig/CEU-R-skills#week-2-100-min-more-loops)
     * [Week 3](https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis)
+    * [Week 4](https://github.com/daroczig/CEU-R-skills#week-4-100-min-intro-to-spatial-data)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
@@ -88,6 +89,20 @@ Homework: check on Moodle
 * ARIMA: [3.R](3.R#L129)
 * The Naïve forecasting method: [3.R](3.R#L100)
 * Analysing the amount of gasoline products supplied between 1991 and 2017: [3.R](3.R#L145)
+
+Homework: check on Moodle
+
+### Week 4 (100 min): Intro to Spatial Data
+
+* General feedback on homework: [4.R](4.R#L1)
+* Recap on merging datasets: [4.R](4.R#L44)
+* Recap on aggregates: [4.R](4.R#L69)
+* Recap on plotting: [4.R](4.R#L82)
+* Geocoding: [4.R](4.R#L92)
+* Plotting a map: [4.R](4.R#L125)
+* Parsing data from the Internet: [4.R](4.R#L147)
+
+Homework: check on Moodle
 
 ## Contact
 
