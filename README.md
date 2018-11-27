@@ -10,6 +10,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
     * [Week 2](https://github.com/daroczig/CEU-R-skills#week-2-100-min-more-loops)
     * [Week 3](https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis)
     * [Week 4](https://github.com/daroczig/CEU-R-skills#week-4-100-min-intro-to-spatial-data)
+    * [Week 5](https://github.com/daroczig/CEU-R-skills#week-5-100-min-recap-on-time-series-and-spatial-data)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
@@ -101,6 +102,16 @@ Homework: check on Moodle
 * Geocoding: [4.R](4.R#L92)
 * Plotting a map: [4.R](4.R#L125)
 * Parsing data from the Internet: [4.R](4.R#L147)
+
+Homework: check on Moodle
+
+### Week 5 (100 min): Recap on Time Series and Spatial Data
+
+* Extended time-series object: [5.R](5.R#L18)
+* Drawing heatmaps: [5.R](5.R#L26)
+* Plotting from multiple datasets: [5.R](5.R#L43)
+* Time periods, intervals, duration: [5.R](5.R#L66)
+* Case study of Portland's Biketown PDX data: [5.R](5.R#L106)
 
 Homework: check on Moodle
 
