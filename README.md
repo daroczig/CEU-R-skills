@@ -77,6 +77,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Homework</summary>
+  
 ```
 1. Set the seed to 42 and run a simulation 1000 times: playing roulette for 100 rounds, starting with $100 budget, always betting $1 on numbers 18-36 in each round. After saving the results in a helper variable, answer the below questions by using your saved results:
 
@@ -90,6 +91,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
   - Add the city names as labels to the scatterplot.
   - Fix the north-south and east-west orientation if needed.
 ```
+
 </details>
 
 ### Week 3 (100 min): Intro to Time-series Analysis
@@ -107,6 +109,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Homework</summary>
+  
 ```
 1. Make sure to revisit the exercises we covered on Monday: https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis
 2. Make sure that all required packages are installed (both from CRAN via install.packages and from GitHub via install_github), debug error messages, search on StackOverflow -- open a GitHub issue with the details if you get stuck and I'll try to help
@@ -118,6 +121,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 8. Compute the accuracy metrics of TBATS forecasts for the next 6 months
 9. Install the following R packages from CRAN before Monday: lubridate, XML, rvest, shiny, rmarkdown, pander
 ```
+
 </details>
 
 ### Week 4 (100 min): Intro to Spatial Data
@@ -132,6 +136,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Homework</summary>
+  
 ```
 1. Visit Week 31 of the TidyTuesday project at https://github.com/rfordatascience/tidytuesday and get familiar with the project data.
 2. Load into R `r-downloads.csv` as a `data.table` object
@@ -148,6 +153,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 8. Merge GDP per capita to the dataset
 9. Check if there's any association between GDP and ratio of OSX users
 ```
+
 </details>
 
 ### Week 5 (100 min): Recap on Time Series and Spatial Data
@@ -160,6 +166,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Homework</summary>
+  
 ```
 1. Load the Maryland Bridges dataset from https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-27
 2. Visualize the location of the bridges as a scatter plot via `ggplot2`
@@ -169,6 +176,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 6. Compute the average daily traffic on all bridges per county
 7. Create a scatter plot showing the daily traffic per country by placing points with varying sizes on the geometric center of the counties computed from the geolocation of the bridges
 ```
+
 </details>
 
 ### Week 6 (100 min): Presenting Insights
@@ -178,6 +186,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Final take-home assignment</summary>
+  
 ```
 Note, that this take-home assignment will make up 50% of your final grade, so please take this seriously. Clean up the R script / documents from comments and dead code, also double check that all the commands are working etc before submission. 
 
@@ -199,6 +208,7 @@ Tech requirements:
   - Shiny: publish your app at http://www.shinyapps.io, add the URL to your Shiny app source file(s) and upload to Moodle
   - strict deadline: Dec 21 (Friday), 2018 -- no late submissions will be accepted
 ```
+
 </details>
 
 ## Contact
