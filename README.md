@@ -77,7 +77,6 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 
 <details>
   <summary>Homework</summary>
-  
 ```
 1. Set the seed to 42 and run a simulation 1000 times: playing roulette for 100 rounds, starting with $100 budget, always betting $1 on numbers 18-36 in each round. After saving the results in a helper variable, answer the below questions by using your saved results:
 
@@ -91,10 +90,7 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
   - Add the city names as labels to the scatterplot.
   - Fix the north-south and east-west orientation if needed.
 ```
-
 </details>
-
-Homework: check on Moodle
 
 ### Week 3 (100 min): Intro to Time-series Analysis
 
@@ -109,7 +105,20 @@ Homework: check on Moodle
 * The Naïve forecasting method: [3.R](3.R#L100)
 * Analysing the amount of gasoline products supplied between 1991 and 2017: [3.R](3.R#L145)
 
-Homework: check on Moodle
+<details>
+  <summary>Homework</summary>
+```
+1. Make sure to revisit the exercises we covered on Monday: https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis
+2. Make sure that all required packages are installed (both from CRAN via install.packages and from GitHub via install_github), debug error messages, search on StackOverflow -- open a GitHub issue with the details if you get stuck and I'll try to help
+3. Load the fpp2 package and check the manual of the "usmelec" dataset
+4. Visualize the time-series
+5. Apply moving-average smoothing using a window of 12 and visualize the smoothed time-series over the raw data with a blue line
+6. What's the naive forecast for the next 3 months?
+7. Apply the auto.arima function and plot the forecasts for the next 5 years
+8. Compute the accuracy metrics of TBATS forecasts for the next 6 months
+9. Install the following R packages from CRAN before Monday: lubridate, XML, rvest, shiny, rmarkdown, pander
+```
+</details>
 
 ### Week 4 (100 min): Intro to Spatial Data
 
@@ -121,7 +130,25 @@ Homework: check on Moodle
 * Plotting a map: [4.R](4.R#L125)
 * Parsing data from the Internet: [4.R](4.R#L147)
 
-Homework: check on Moodle
+<details>
+  <summary>Homework</summary>
+```
+1. Visit Week 31 of the TidyTuesday project at https://github.com/rfordatascience/tidytuesday and get familiar with the project data.
+2. Load into R `r-downloads.csv` as a `data.table` object
+3. Create a new dataset (called `countries`) describing the countries with the following variables:
+   - number of overall downloads
+   - number of unique users (IP addresses)
+   - number of Windows downloads
+   - number of OSX downloads
+   - number of downloads from other operating systems
+4. Compute a new column in `countries` showing the ratio of Windows vs other OS users
+5. Merge the name of the country based on the 2-letter ISO country code, maybe using the `countrycode` package from CRAN
+6. Get geocodes (lon, lat) for each row of the `countries` dataset
+7. Create a scatterplot on the top of a worldmap, where each point stands for a country and the size is based on the number of package downloads
+8. Merge GDP per capita to the dataset
+9. Check if there's any association between GDP and ratio of OSX users
+```
+</details>
 
 ### Week 5 (100 min): Recap on Time Series and Spatial Data
 
@@ -131,14 +158,48 @@ Homework: check on Moodle
 * Time periods, intervals, duration: [5.R](5.R#L66)
 * Case study of Portland's Biketown PDX data: [5.R](5.R#L106)
 
-Homework: check on Moodle
+<details>
+  <summary>Homework</summary>
+```
+1. Load the Maryland Bridges dataset from https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-27
+2. Visualize the location of the bridges as a scatter plot via `ggplot2`
+3. Add a map layer behind the scatter plot
+4. Compute the number of months between the built date (let's suppose all bridges were finished in Dec) and most recent inspection date
+5. Which bridge is the closest to Budapest, Hungary?
+6. Compute the average daily traffic on all bridges per county
+7. Create a scatter plot showing the daily traffic per country by placing points with varying sizes on the geometric center of the counties computed from the geolocation of the bridges
+```
+</details>
 
 ### Week 6 (100 min): Presenting Insights
 
 * [Example R Markdown document](6.Rmd)
 * [Example Shiny app](6.R)
 
-Final take-home assignment: check on Moodle
+<details>
+  <summary>Final take-home assignment</summary>
+```
+Note, that this take-home assignment will make up 50% of your final grade, so please take this seriously. Clean up the R script / documents from comments and dead code, also double check that all the commands are working etc before submission. 
+
+Dataset to be used: US Honey Production from https://github.com/rfordatascience/tidytuesday + some metadata on kaggle.com
+
+Minimum requirements: an R Markdown or Shiny application including at least
+
+  - a paragraph describing the dataset including min 3 inline code chunks
+  - a frequency table or summary stats rendered as a table
+  - a ggplot2 chart using at least 3 variables from the dataset
+  - visualize the honey production per state in 2012
+  - predict the total honey production in 2013 based on the available dataset
+
+Note, that fulfilling the above minimum requirements will result in 3 stars out of the overall 5 stars given for this project, which will be taken into account with a weight of 4 plus your homeworks (each with a weight of 1) for the final grade, so if you are looking for an above average grade, I'd suggest spending more time on this project and come up with creative questions and insights on this data, then present in a nice way.
+
+Tech requirements:
+
+  - R Markdown: publish your document on https://rpubs.com, add the URL to your Rmd file and upload to Moodle
+  - Shiny: publish your app at http://www.shinyapps.io, add the URL to your Shiny app source file(s) and upload to Moodle
+  - strict deadline: Dec 21 (Friday), 2018 -- no late submissions will be accepted
+```
+</details>
 
 ## Contact
 
