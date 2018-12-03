@@ -11,6 +11,7 @@ This is the R script repository of the "[R Skills](https://courses.ceu.edu/cours
     * [Week 3](https://github.com/daroczig/CEU-R-skills#week-3-100-min-intro-to-time-series-analysis)
     * [Week 4](https://github.com/daroczig/CEU-R-skills#week-4-100-min-intro-to-spatial-data)
     * [Week 5](https://github.com/daroczig/CEU-R-skills#week-5-100-min-recap-on-time-series-and-spatial-data)
+    * [Week 6](https://github.com/daroczig/CEU-R-skills#week-6-100-min-presenting-insights)
 
 * [Contact](https://github.com/daroczig/CEU-R-lab#contacts)
 
@@ -114,6 +115,13 @@ Homework: check on Moodle
 * Case study of Portland's Biketown PDX data: [5.R](5.R#L106)
 
 Homework: check on Moodle
+
+### Week 6 (100 min): Presenting Insights
+
+* [Example R Markdown document](6.R)
+* [Example Shiny app](6.Rmd)
+
+Final take-home assignment: check on Moodle
 
 ## Contact
 
