@@ -118,8 +118,8 @@ Homework: check on Moodle
 
 ### Week 6 (100 min): Presenting Insights
 
-* [Example R Markdown document](6.R)
-* [Example Shiny app](6.Rmd)
+* [Example R Markdown document](6.Rmd)
+* [Example Shiny app](6.R)
 
 Final take-home assignment: check on Moodle
 
