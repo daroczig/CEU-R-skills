@@ -67,8 +67,6 @@ Find more resources in Jenny Bryan's "[Happy Git and GitHub for the useR](http:/
 * Creating animation by iterating plots: [1.R](1.R#L96)
 * `apply` on matrices: [1.R](1.R#L113)
 
-Homework: -
-
 ### Week 2 (100 min): More Loops
 
 * Recap on 1D random walk (sim): [2.R](2.R#L1)
@@ -76,6 +74,25 @@ Homework: -
 * Roulette (sim): [2.R](2.R#L53)
 * Reading Excel spreadsheet: [2.R](2.R#L79)
 * Dimension reduction with MDS for plotting: [2.R](2.R#L94)
+
+<details>
+  <summary>Homework</summary>
+  
+```
+1. Set the seed to 42 and run a simulation 1000 times: playing roulette for 100 rounds, starting with $100 budget, always betting $1 on numbers 18-36 in each round. After saving the results in a helper variable, answer the below questions by using your saved results:
+
+  - Draw a histogram on the (1000) resulting budgets at the end of the 100-100 rounds.
+  - What's the average amount of lost dollars in 100 rounds?
+  - How many times (out of 1000) did we win at least $1?
+  
+2. Draw a ggplot2 2D "map" of European cities by applying MDS on the "eurodist" dataset:
+
+  - Start with a scatterplot.
+  - Add the city names as labels to the scatterplot.
+  - Fix the north-south and east-west orientation if needed.
+```
+
+</details>
 
 Homework: check on Moodle
 
